@@ -1,0 +1,13 @@
+.DateTimeDisplay p {
+    font-size: 1.2rem;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+    float: inline-start;
+    font-weight: bold;
+    color: #888;
+  }
+
+
+  #carouselExample{
+    margin-top: 20px; 
+  }

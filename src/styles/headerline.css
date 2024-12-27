@@ -1,0 +1,66 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+h1{
+    
+    text-align: center;
+    margin: 0;
+    flex: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+div{
+    align-items: center;
+    justify-content: flex-end;
+    /* display: flex; */
+}
+
+div img {
+    width: 24px; /* Set the size for the logos */
+    height: auto; /* Keeps aspect ratio */
+    margin-left: 10px; /* Space between multiple logos */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+
+.subscribe-btn {
+    background-color: #090a09; /* Default button color */
+    color: #fff; /* Text color */
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #407741; /* Hover color */
+}
+
+
+.subscription-form {
+    margin-top: 20px;
+  }
+  
+  .subscription-form input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .subscription-form button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .subscription-form button:hover {
+    background-color: #45a049;
+  }

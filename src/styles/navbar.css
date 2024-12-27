@@ -1,0 +1,23 @@
+/* Styles for navigation lists */
+.navbar{
+    padding: 10px; 
+    list-style-type: none; /* Remove bullets */
+    display: flex; /* Use Flexbox */
+    /* justify-content:space-around; Spread items across the container */
+    background-color:cadetblue;
+    margin-bottom: 10px; /* Add space between navbar and the carousel image */
+    /* margin: 10px; */
+}
+
+/* Color for anchors in navigation */
+.navbar a{
+    color: lightgray; /* Set color for main navigation links */
+    text-decoration: none;  /* Remove underline */
+    margin-right: 20px;  /* Space between links */
+    
+    padding-left:10px;
+}
+
+.navbar a:hover {
+    color: #f0a500;  /* Color when the user hovers over a link */
+  }

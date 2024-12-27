@@ -1,0 +1,62 @@
+article img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+    
+  }
+
+
+  .article {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+  }
+
+
+  /* Style the image container to display images horizontally */
+.image-container {
+    display: flex;              /* Flexbox layout */
+    gap: 10px;                  /* Adds space between images */
+    justify-content: center;    /* Center images horizontally */
+    margin-top: 10px;           /* Add space above the images */
+  }
+
+  /* Style the images */
+.image-container img {
+    max-width: 800px;   /* Limit the width of images */
+    height: auto;       /* Keep the aspect ratio */
+    border-radius: 8px;
+  }
+
+
+  /* Style the title */
+article h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+
+
+  .styled-paragraph::first-letter {
+    font-size: 6em;  /* Makes the first letter bigger */
+    color: grey;     /* Makes the first letter grey */
+    font-weight: bold;
+    float: none;      /* Ensure it floats to the left for text wrapping */
+    margin-right: 1px; /* Adds a bit of space between the first letter and the rest of the text */
+  }
+
+
+  .styled-para::first-letter {
+    font-size: 6em;  /* Makes the first letter bigger */
+    color: grey;     /* Makes the first letter grey */
+    font-weight: bold;
+    float: left;      /* Ensure it floats to the left for text wrapping */
+    margin-right: 0.5px; /* Adds a bit of space between the first letter and the rest of the text */
+    position: relative;        /* Allows us to adjust the position */
+    top: -0.5em;               /* Moves the first letter slightly higher */
+  }
