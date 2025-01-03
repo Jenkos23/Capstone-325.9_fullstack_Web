@@ -13,7 +13,7 @@ function Article({ title, images, content }) {
             key={index}
             src={image.src}
             alt={image.alt}
-          />
+            />
         ))}
       </div>
 
