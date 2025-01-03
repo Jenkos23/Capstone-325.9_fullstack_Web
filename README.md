@@ -1,4 +1,3 @@
-Certainly! Since the app is using Vite for the development server, the default localhost port will be `5173` instead of `3000`. Here's the updated **README** with the necessary changes:
 
 ---
 
