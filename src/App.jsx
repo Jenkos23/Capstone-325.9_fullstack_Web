@@ -8,6 +8,7 @@ import FashWeather from "./components/FashWeather";
 import FashionNews from "./components/FashNews";
 import PhotoJokéne from "./pages/photoJokene";
 import AboutPage from "./pages/Aboutpage";
+import Footer from "./components/footer";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/photos" element = {<PhotoJokéne/>}/>
         <Route path="/about" element = {<AboutPage/>}/>
      </Routes>
+     <Footer/>
      
      </Router>
 
