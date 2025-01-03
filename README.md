@@ -1,7 +1,11 @@
+Certainly! Since the app is using Vite for the development server, the default localhost port will be `5173` instead of `3000`. Here's the updated **README** with the necessary changes:
+
+---
+
 # Fashion Website - Full Stack React Application
 
 ## Overview
-This is a full-stack web application developed using React. The application is designed for a fashion website that fetches user data from a MongoDB cluster. The website serves information such as fashion news, weather updates, and fashion articles from a backend. Additionally, the application displays designer photos and bios and uses an external API (OpenWeather) to provide weather information based on the user's city, helping users select appropriate clothing for different seasons.
+This is a full-stack web application developed using React and Vite. The application is designed for a fashion website that fetches user data from a MongoDB cluster. The website serves information such as fashion news, weather updates, and fashion articles from a backend. Additionally, the application displays designer photos and bios and uses an external API (OpenWeather) to provide weather information based on the user's city, helping users select appropriate clothing for different seasons.
 
 ## Features
 - **User Data Fetching**: Retrieves user data from the MongoDB cluster for the `m_flix` database.
@@ -68,12 +72,13 @@ npm install
 
 ### 4. Run the development server:
 ```bash
-npm start
+npm run dev
 ```
-The app will be available at `http://localhost:3000`.
+The app will be available at `http://localhost:5173`.
 
 ## Technologies Used
 - **React**: For building the frontend user interface.
+- **Vite**: For fast and efficient bundling and development.
 - **Node.js & Express**: For the backend API that serves the fashion news and handles MongoDB integration.
 - **MongoDB**: For storing user and fashion-related data.
 - **OpenWeather API**: For weather-related data and suggestions on seasonal clothing.
@@ -119,3 +124,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Enjoy building and customizing your fashion website! Feel free to reach out for any questions or improvements.
+
+---
+
