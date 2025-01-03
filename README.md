@@ -88,7 +88,7 @@ The app will be available at `http://localhost:5173`.
 ```
 src/
 ├── components/
-│   ├── Article.jsx
+│   ├── users.jsx
 │   ├── ArticleList.jsx
 │   ├── DateTimeDisplay.jsx
 │   ├── FashionNews.jsx
