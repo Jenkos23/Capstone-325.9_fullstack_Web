@@ -1,22 +1,22 @@
-import React from "react"
+import React from "react";
 import '../styles/article.css'
 
-export default function Article({title, images, content}){
-    return(
-        <article className="article">
-            <h2  className="agu-display">{title}</h2>
-            <p className="styled-paragraph">{content}</p>
+export default function Article({ title, images, content }) {
+  return (
+    <article className="article">
+      <h2 className="agu-display">{title}</h2>
 
-          <div className="image-container">
-            {images.map((image, index) =>(
-                <img key={index}
-                src= {image.src}
-                alt={image.alt}/>
-            ))}
+      <div className="image-container">
+        {images.map((image, index) => (
+          <img 
+            key={index}
+            src={image.src}
+            alt={image.alt}
+          />
+        ))}
+      </div>
 
-           </div>
-
-            
-        </article>
-    )
+      <p className="styled-paragraph">{content}</p>
+    </article>
+  );
 }
