@@ -26,7 +26,7 @@ article img {
 
   /* Style the images */
 .image-container img {
-    max-width: 800px;   /* Limit the width of images */
+    max-width: 300px;   /* Limit the width of images */
     height: auto;       /* Keep the aspect ratio */
     border-radius: 8px;
   }
