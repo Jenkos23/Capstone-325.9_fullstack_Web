@@ -19,7 +19,7 @@ article img {
   /* Style the image container to display images horizontally */
 .image-container {
     display: flex;              /* Flexbox layout */
-    gap: 10px;                  /* Adds space between images */
+    gap: 5px;                  /* Adds space between images */
     justify-content: center;    /* Center images horizontally */
     margin-top: 10px;           /* Add space above the images */
   }
