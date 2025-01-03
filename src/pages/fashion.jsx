@@ -1,9 +1,11 @@
 import ArticleList from "../components/ArticleList"
+import Footer from "../components/footer"
+
 
 export default function FashionPage(){
     return(
        <>
-        <div id="carouselExample" className="carousel slide"  style={{ maxWidth: '800px', margin: 'auto' }} data-bs-ride="carousel" data-bs-interval="3000">
+        <div id="carouselExample" className="carousel slide"  style={{ maxWidth: '500px', margin: 'auto' }} data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://images.pexels.com/photos/29507238/pexels-photo-29507238/free-photo-of-vibrant-portrait-of-woman-in-traditional-african-headwrap.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="..."/>
@@ -35,6 +37,8 @@ export default function FashionPage(){
        
       </div>
        <ArticleList/>
+       
+       
        </>
     
     )
