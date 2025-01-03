@@ -9,6 +9,7 @@ import FashionNews from "./components/FashNews";
 import PhotoJokéne from "./pages/photoJokene";
 import AboutPage from "./pages/Aboutpage";
 import Footer from "./components/footer";
+import HeaderLine from "./components/HeaderLine";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
    
      <Router>
+     <HeaderLine/>
      <Navbar/>
 
      <Routes>
