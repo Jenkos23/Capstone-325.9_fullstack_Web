@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import DateTimeDisplay from "./DatetimeDisplay";
 
 export default function Users() {
   const [userdata, setUserData] = useState(null); // Store fetched user data
@@ -21,6 +22,7 @@ export default function Users() {
 
   return (
     <>
+    <DateTimeDisplay/>
       {error && <p>{error}</p>} {/* Display error message if there was an error */}
       
       {userdata ? (
