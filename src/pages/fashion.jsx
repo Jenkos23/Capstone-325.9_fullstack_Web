@@ -3,9 +3,22 @@ import Footer from "../components/footer"
 
 
 export default function FashionPage(){
+  
+  useEffect(() => {
+    // Make sure the Bootstrap Carousel is initialized
+    const carouselElement = document.getElementById('carouselExample');
+    const carousel = new window.bootstrap.Carousel(carouselElement, {
+      ride: 'carousel', // Automatically start the carousel
+      interval: 3000,    // Set the interval time to 3 seconds
+    });
+    carousel.cycle();  // Start the carousel immediately
+  }, []);
+
+
+
     return(
        <>
-        <div id="carouselExample" className="carousel slide"  style={{ maxWidth: '500px', margin: 'auto' }} data-bs-ride="carousel" data-bs-interval="1000">
+        <div id="carouselExample" className="carousel slide"  style={{ maxWidth: '500px', margin: 'auto' }} data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://images.pexels.com/photos/29507238/pexels-photo-29507238/free-photo-of-vibrant-portrait-of-woman-in-traditional-african-headwrap.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="..."/>
