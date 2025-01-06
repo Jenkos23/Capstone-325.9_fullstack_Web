@@ -1,10 +1,10 @@
 import ArticleList from "./ArticleList"
-import Footer from "../components/footer"
+import { useEffect } from "react";
 
 
 export default function FashionPage(){
-  
-  useEffect(() => {
+
+    useEffect(() => {
     // Make sure the Bootstrap Carousel is initialized
     const carouselElement = document.getElementById('carouselExample');
     const carousel = new window.bootstrap.Carousel(carouselElement, {
