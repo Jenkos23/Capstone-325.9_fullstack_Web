@@ -13,7 +13,7 @@ export default function Navbar(){
                 <Link to = "/about">About</Link>
                 <Link to = "/photos">PhotoJokéne</Link>
                 <Link to = "/fashweather">Fash_Weather</Link>
-                <Link to = "/user">Users_Page</Link>
+                <Link to = "/task">Designer_TaskManagement</Link>
             </nav>
 
         </div>
